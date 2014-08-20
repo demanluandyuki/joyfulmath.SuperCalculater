@@ -1,0 +1,197 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RealEstatentActivity"
+    android:background="@drawable/bg_activity">
+    <TextView
+        android:id="@+id/loan_style_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/radioGroup"
+        android:text="@string/loan_sytle_text"
+        android:textSize="12sp" 
+        android:gravity="center"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/loan_style_text_id"
+        android:paddingLeft="10dp"
+        android:contentDescription="@string/loan_sytle_text"
+        android:orientation="horizontal" >
+ 
+        <RadioButton
+            android:id="@+id/radioLoanStyle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/loan_sytle_text1"
+            android:textSize="12sp" >
+        </RadioButton>
+  
+        <RadioButton
+            android:id="@+id/radioLoanStyle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loan_sytle_text2"
+            android:textSize="12sp" >
+        </RadioButton>
+	</RadioGroup>
+
+    <TextView
+        android:id="@+id/gongjj_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loan_style_text_id"
+        android:layout_below="@+id/loan_style_text_id"
+        android:layout_marginTop="30dp"
+        android:text="@string/Gongjj_loan"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/gongjj_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gongjj_text"
+        android:layout_alignBottom="@+id/gongjj_text"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/gongjj_text"
+        android:ems="4"
+        android:inputType="number"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:background="#ffffffff"
+        android:gravity="right"
+        android:hint="@string/default_edit_text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/text_wang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gongjj_edit"
+        android:layout_alignBottom="@+id/gongjj_edit"
+        android:layout_toRightOf="@+id/gongjj_edit"
+        android:text="@string/wang"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/commercial_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gongjj_text"
+        android:layout_below="@+id/gongjj_text"
+        android:layout_marginTop="50dp"
+        android:text="@string/commercial_loan"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/commercial_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/commercial_text"
+        android:layout_alignBottom="@+id/commercial_text"
+        android:layout_alignLeft="@+id/gongjj_edit"
+        android:layout_toRightOf="@+id/commercial_text"
+        android:ems="4"
+        android:inputType="number"
+        android:textSize="12sp"
+        android:padding="5dp"
+        android:background="#ffffffff" 
+        android:gravity="right"
+        android:hint="@string/default_edit_text">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/text_wang2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/commercial_edit"
+        android:layout_alignBottom="@+id/commercial_edit"
+        android:layout_toRightOf="@+id/commercial_edit"
+        android:text="@string/wang"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/loan_year_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/commercial_text"
+        android:layout_below="@+id/commercial_text"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/loan_year"
+        android:textSize="12sp"/>
+
+    <Spinner
+        android:id="@+id/loan_year_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/commercial_edit"
+        android:layout_alignTop="@+id/loan_year_text"
+        android:gravity="left"
+        android:padding="-5dp"
+        android:entries="@array/loan_year_array"/>
+    
+    <TextView
+        android:id="@+id/loan_rote_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loan_year_text"
+        android:layout_below="@+id/loan_year_text"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/loan_rate"
+        android:textSize="12sp"/>
+
+    <Spinner
+        android:id="@+id/loan_rate_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/commercial_edit"
+        android:layout_alignTop="@+id/loan_rote_text"
+        android:gravity="left"
+        android:padding="-5dp"
+        android:entries="@array/rate_array"/>
+
+    <TextView
+        android:id="@+id/loan_rate_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loan_rate_spinner"
+        android:layout_below="@+id/loan_rate_spinner"
+        android:layout_marginTop="10dp"
+        android:textIsSelectable="true" />
+ 	<Button android:id="@+id/btn_cal_start"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_above="@+id/linear_banner_1"
+ 	    android:layout_marginBottom="0dp"
+ 	    android:layout_alignParentLeft="true"
+ 	    android:text="@string/start_calculater"
+ 	    />
+ 	<Button android:id="@+id/btn_cal_reset"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_above="@+id/linear_banner_1"
+ 	    android:layout_alignParentRight = "true"
+ 	    android:layout_marginBottom="0dp"
+ 	    android:text="@string/reset_calculater"
+ 	    />
+ 	<LinearLayout android:id="@+id/linear_banner_1"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:layout_alignParentBottom="true"
+ 	    android:layout_marginBottom="0dp">
+ 	</LinearLayout>
+</RelativeLayout>

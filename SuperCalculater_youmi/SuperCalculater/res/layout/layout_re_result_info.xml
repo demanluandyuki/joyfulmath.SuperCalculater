@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/line_header_loan_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_header_loan_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="@string/header_loan_total"
+                android:textColor="@color/result_title_color" />
+
+            <TextView
+                android:id="@+id/text_header_loan_total_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="@string/default_edit_text"
+                android:textColor="@color/result_key_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line_header_return_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text_header_return_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="@string/header_return_total"
+                android:textColor="@color/result_title_color" />
+
+            <TextView
+                android:id="@+id/text_header_return_total_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="@string/default_edit_text"
+                android:textColor="@color/result_key_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/line_header_loan_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/text_header_loan_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="@string/header_loan_month"
+                android:textColor="@color/result_title_color" />
+
+            <TextView
+                android:id="@+id/text_header_loan_month_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="@string/default_edit_text"
+                android:textColor="@color/result_key_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line_header_total_interest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/text_header_total_interest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="@string/header_total_interest"
+                android:textColor="@color/result_title_color" />
+
+            <TextView
+                android:id="@+id/text_header_total_interest_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="@string/default_edit_text"
+                android:textColor="@color/result_key_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/line_header_repay_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/text_header_repay_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="@string/header_repay_month"
+                android:textColor="@color/result_title_color" />
+
+            <TextView
+                android:id="@+id/text_header_repay_month_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="@string/default_edit_text"
+                android:textColor="@color/result_key_color" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/line_head_loan_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" >
+
+            <TextView
+                android:id="@+id/text_head_loan_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="@string/commercial_loan_rate"
+                android:textColor="@color/result_title_color" />
+
+            <TextView
+                android:id="@+id/text_head_loan_rate_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:text="@string/default_edit_text"
+                android:textColor="@color/result_key_color" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/header_list_item_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <include layout="@layout/layout_re_list_header" />
+    </LinearLayout>
+
+</LinearLayout>

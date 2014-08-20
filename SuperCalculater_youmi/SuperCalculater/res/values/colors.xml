@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="realestatent_title_blue">#FF6495ED</color>
+    <color name="result_title_color">#FFB8860B</color>
+    <color name="result_key_color">#FF2020FF</color>
+    <color name="result_normal_color">#FFFFFFF0</color>
+    <color name="result_title_background">#FF636363</color>
+    <color name="result_item_background">#FF4B0082</color>
+</resources>

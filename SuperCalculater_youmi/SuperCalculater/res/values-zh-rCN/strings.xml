@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">超级理财房贷计算器</string>
+    <string name="realestatent_loan">房贷计算器</string>
+    <string name="realestatent_loan_result">房贷计算结果</string>
+    <string name="action_settings">设置</string>
+    <string name="commercial_loan">商业贷款</string>
+    <string name="loan_year">按揭年数</string>
+    <string name="Gongjj_loan">公积金贷款</string>
+    <string name="commercial_loan_rate">商业贷款利率:</string>
+    <string name="Gongjj_loan_rate">公积金贷款利率:</string>
+    <string name="colon">:</string>
+    <string name="loan_rate">还款利率</string>
+    <string name="year_str">年</string>
+    <string name="year_str_default">20</string>
+    <string name="loan_sytle_text">还款方式</string>
+    <string name="loan_sytle_text1">等额本息</string>
+    <string name="loan_sytle_text2">等额本金</string>
+
+    <string-array name="loan_sytle">
+        <item>等额本金</item>
+        <item>等额本息</item>
+    </string-array>
+
+    <string name="wang">万元</string>
+
+    <string-array name="rate_array">
+        <item>12年07月06日利率上限1.3倍</item>
+        <item>12年07月06日利率上限1.2倍</item>
+        <item>12年07月06日利率上限1.1倍</item>
+        <item>12年07月06日利率上限</item>
+        <item>12年07月06日利率上限0.95倍</item>
+        <item>12年07月06日利率上限0.90倍</item>
+        <item>12年07月06日利率上限0.85倍</item>
+        <item>12年07月06日利率上限0.80倍</item>
+        <item>12年07月06日利率上限0.75倍</item>
+        <item>12年07月06日利率上限0.70倍</item>
+    </string-array>
+    <string-array name="loan_year_array">
+        <item>1年</item>
+        <item>2年</item>
+        <item>3年</item>
+        <item>4年</item>
+        <item>5年</item>
+        <item>6年</item>
+        <item>7年</item>
+        <item>8年</item>
+        <item>9年</item>
+        <item>10年</item>
+        <item>11年</item>
+        <item>12年</item>
+        <item>13年</item>
+        <item>14年</item>
+        <item>15年</item>
+        <item>16年</item>
+        <item>17年</item>
+        <item>18年</item>
+        <item>19年</item>
+        <item>20年</item>
+        <item>21年</item>
+        <item>22年</item>
+        <item>23年</item>
+        <item>24年</item>
+        <item>25年</item>
+        <item>26年</item>
+        <item>27年</item>
+        <item>28年</item>
+        <item>29年</item>
+        <item>30年</item>
+    </string-array>
+
+    <string name="start_calculater">开始计算</string>
+    <string name="reset_calculater">重新计算</string>
+    <string name="header_time">期次</string>
+    <string name="header_interest">偿还利息</string>
+    <string name="header_captial">偿还本金</string>
+    <string name="header_return">还款金额</string>
+    <string name="header_least_captial">剩余本金</string>
+    <string name="header_loan_total">贷款总额</string>
+    <string name="header_return_total">还款总额</string>
+    <string name="header_loan_month">贷款期次</string>
+    <string name="header_total_interest">支付利息</string>
+    <string name="header_rate_commercial">商贷利率</string>
+    <string name="header_rate_gongjj">公积金利率</string>
+    <string name="header_repay_month">首月还款</string>
+    <string name="progress_dialog_title">载入中...</string>
+    <string name="homepage_back_dialog_title">提示</string>
+    <string name="homepage_back_dialog_message">请去应用列表看看吧，有很多好游戏呦！</string>
+    <string name="homepage_dialog_ok">确定</string>
+    <string name="homepage_dialog_cancel">取消</string>
+    <string name="homepage_dialog_applist">应用列表</string>
+    <string name="default_edit_text">0</string>
+    <string name="alert_no_loan">请输入贷款金额</string>
+</resources>

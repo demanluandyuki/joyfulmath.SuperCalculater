@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/result_item_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:textSize="12sp"
+        android:textColor="@color/result_normal_color"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/result_item_interest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:textSize="12sp"
+        android:textColor="@color/result_normal_color"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/result_item_captial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:textSize="12sp"
+        android:textColor="@color/result_normal_color"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/result_item_return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:textSize="12sp"
+        android:textColor="@color/result_key_color"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/result_item_remain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:textSize="12sp"
+        android:textColor="@color/result_normal_color"
+        android:textIsSelectable="true" />
+
+</LinearLayout>

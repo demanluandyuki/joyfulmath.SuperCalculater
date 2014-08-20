@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/result_title_background"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/head_time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/header_time"
+        android:textColor="@color/result_title_color" />
+
+    <TextView
+        android:id="@+id/head_interest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/header_interest"
+        android:textColor="@color/result_title_color" />
+
+    <TextView
+        android:id="@+id/head_captial"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/header_captial"
+        android:textColor="@color/result_title_color" />
+
+    <TextView
+        android:id="@+id/head_return"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/header_return"
+        android:textColor="@color/result_title_color" />
+
+    <TextView
+        android:id="@+id/head_remain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:gravity="left|center_vertical"
+        android:padding="@dimen/normal_padding"
+        android:text="@string/header_least_captial"
+        android:textColor="@color/result_title_color" />
+
+</merge >
