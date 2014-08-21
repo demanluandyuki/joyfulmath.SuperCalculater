@@ -66,7 +66,7 @@ public class RealEstatentActivity extends Activity implements
 		mAdsBanner = (LinearLayout) this.findViewById(R.id.linear_banner_1);
 
 	}
-	
+	//test code in home
 	
 	@Override
 	protected void onStart() {
