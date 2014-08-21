@@ -17,11 +17,11 @@ public class wandoujiaAds extends BaseAdvertise
 //implements AdListener 
 {
 
-	private static final String AppKey_ID = "100011966";
-	private static final String SECRET_KEY = "b770aab47ae23c5c19616ede91bc29a7";
-	private static final String BANNER_ID = "84bc1791a0b02f748a5137514659049b";
-	private static final String APPLIST_ID = "78273eef03875afc9b082c1bcaa088a6";
-	private static final String INSERT_ID = "fc89af0658a5cfda9cb880b4b1b206a7";
+//	private static final String AppKey_ID = "100011966";
+//	private static final String SECRET_KEY = "b770aab47ae23c5c19616ede91bc29a7";
+//	private static final String BANNER_ID = "84bc1791a0b02f748a5137514659049b";
+//	private static final String APPLIST_ID = "78273eef03875afc9b082c1bcaa088a6";
+//	private static final String INSERT_ID = "fc89af0658a5cfda9cb880b4b1b206a7";
 	private static final String TAG = "SuperCalculater.wandoujiaAds";
 
 	public wandoujiaAds(Context context) {

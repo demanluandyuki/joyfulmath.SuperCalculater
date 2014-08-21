@@ -4,7 +4,6 @@ import com.joyfulmath.supercalculater.Engine.CaculaterEngine.EngineParams;
 import com.joyfulmath.supercalculater.Engine.GeneralEngineType;
 import com.joyfulmath.supercalculater.ads.BaseAdvertise;
 import com.joyfulmath.supercalculater.ads.YoumiAds;
-import com.joyfulmath.supercalculater.ads.wandoujiaAds;
 
 import android.os.Bundle;
 import android.app.Activity;

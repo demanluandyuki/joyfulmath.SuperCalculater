@@ -7,8 +7,6 @@ import com.joyfulmath.supercalculater.Engine.CaculaterEngine.EngineParams;
 import com.joyfulmath.supercalculater.Engine.CaculaterEngine.EngineResultParam;
 import com.joyfulmath.supercalculater.Engine.CalculaterEngineListener;
 import com.joyfulmath.supercalculater.Engine.GeneralEngineType.MonthLoanResult;
-import com.joyfulmath.supercalculater.ads.BaseAdvertise;
-import com.joyfulmath.supercalculater.ads.YoumiAds;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -42,8 +40,6 @@ public class RealEstatentResultActivity extends Activity implements CalculaterEn
 	private TextView mFirstPayView = null;
 	private TextView mRateTitleView = null;
 	private ProgressDialog mProdialog = null;
-//	private LinearLayout mAdsBanner = null;
-//	private BaseAdvertise mAds = null;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -60,8 +56,7 @@ public class RealEstatentResultActivity extends Activity implements CalculaterEn
 		mTitleLayout = (LinearLayout) this.findViewById(R.id.result_title);
 		mProdialog = new ProgressDialog(this);
 		StartCalculate(mParam);
-//		mAdsBanner = (LinearLayout) this.findViewById(R.id.linear_banner_2);
-//		mAds = YoumiAds.getInstance(this.getApplicationContext());
+
 	}
 	
 	
@@ -70,8 +65,6 @@ public class RealEstatentResultActivity extends Activity implements CalculaterEn
 	protected void onStart() {
 		// TODO Auto-generated method stub
 		super.onStart();
-//		mAds.showBanner(mAdsBanner);
-//		mAdsBanner.setVisibility(View.VISIBLE);
 	}
 
 
