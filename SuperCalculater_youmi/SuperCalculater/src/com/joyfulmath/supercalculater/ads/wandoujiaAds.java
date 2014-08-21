@@ -96,14 +96,19 @@ public class wandoujiaAds extends BaseAdvertise
 	}
 
 	@Override
-	public View showBanner(ViewGroup container) {
+	public void setBanner(ViewGroup container) {
 //		AdBanner banner = Ads.showBannerAd(mContext, container, BANNER_ID);
 //		return banner.getView();
-		return null;
 	}
 
 	@Override
 	public void exit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showBanner() {
 		// TODO Auto-generated method stub
 		
 	}

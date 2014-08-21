@@ -67,18 +67,13 @@ public class RealEstatentActivity extends Activity implements
 		mAdsBanner = (LinearLayout) this.findViewById(R.id.linear_banner_1);
 
 	}
-	//this is my test for git to github
 	
 	
 	@Override
 	protected void onStart() {
 		// TODO Auto-generated method stub
 		super.onStart();
-//		if(!mAds.isLoaded(BaseAdvertise.TYPE_AD_APPLIST))
-//		{
-//			mAds.preLoad(BaseAdvertise.TYPE_AD_APPLIST);
-//		}
-		mAds.showBanner(mAdsBanner);
+		mAds.setBanner(mAdsBanner);
 	}
 
 
